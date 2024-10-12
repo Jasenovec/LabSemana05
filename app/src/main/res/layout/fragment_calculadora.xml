@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/black">
 
     <EditText
         android:id="@+id/editTextNumber1"
@@ -13,6 +14,7 @@
         android:layout_marginTop="50dp"
         android:hint="Primer número"
         android:inputType="numberDecimal"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +26,7 @@
         android:layout_marginTop="20dp"
         android:hint="Segundo número"
         android:inputType="numberDecimal"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber1" />
@@ -33,6 +36,7 @@
         android:layout_width="129dp"
         android:layout_height="48dp"
         android:layout_marginTop="28dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,6 +59,8 @@
         android:layout_marginTop="80dp"
         android:text="Resultado: "
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalcular" />
